@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Power Hope - برق امید",
+  "version": "1.0",
+  "description": "افزونه مدیریت مصرف برق خانگی بر اساس طرح برق امید",
+  "icons": {
+    "48": "icons/icon48.png",
+    "96": "icons/icon96.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "48": "icons/icon48.png",
+      "96": "icons/icon96.png"
+    },
+    "default_title": "برق امید - مدیریت مصرف",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage",
+    "notifications"
+  ]
+}
